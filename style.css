@@ -3,47 +3,30 @@ body {
     padding: 0;
     background-color: #303952;
     font-family: "montserrat";
-    /*background-image: url(https://www.ecopetit.cat/wpic/mpic/59-598725_wallpaper.jpg);
-    background-repeat: repeat-x;*/
-    
-}
-
-/*.bg-image{
-    background-image: url(https://www.ecopetit.cat/wpic/mpic/59-598725_wallpaper.jpg);
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-}*/
-
-
-/*.names{
-    text-align: center;
-    margin-top: 100px;
-    display: inline-block;
-}*/
-
-p {
-    position: relative;
-    display: inline-block;
-    margin-left: 829px;
     color: #fffa65;
-    font-size: 27px;
 }
 
-.bot {
-    left: -801px;
+.names{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+p{
+    width: 30%;
+}
+
+.scoreDisplay{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
 }
 
 .buttons{
     text-align: center;
     margin-top: 360px;
-    
-    
 }
+
 .result,.playerScore,.compScore{
     color: #fffa65;
     font-size: 27px;
@@ -56,20 +39,6 @@ p {
     text-align: center;
     margin-top: 57px;
 
-}
-
-.playerScore{
-    position: relative;
-    text-align: center;
-    padding-right: 125px;
-    bottom: 461px;
-}
-
-.compScore{
-    position: relative;
-    text-align: center;
-    padding-left: 60px;
-    bottom: 492px;
 }
 
 .btn {
@@ -107,6 +76,3 @@ p {
 .btn:hover::before{
     height: 180%;
 }
-
-
-
