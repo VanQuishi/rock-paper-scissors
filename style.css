@@ -9,22 +9,33 @@ body {
 .names{
     text-align: center;
     display: flex;
-    justify-content: space-around;
-}
-
-p{
-    width: 30%;
+    justify-content: center;
 }
 
 .scoreDisplay{
     text-align: center;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
+.user{
+    padding-right: 85px;
+}
+
+.bot{
+    padding-right: 40px;
+}
 .buttons{
     text-align: center;
     margin-top: 200px;
+}
+
+.playerScore{
+    padding-right: 100px;
+}
+
+.compScore{
+    padding-right: 40px;
 }
 
 .result,.playerScore,.compScore{
